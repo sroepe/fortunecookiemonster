@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Monsters from './Monsters';
+import Cookies from './Cookies';
 
 class App extends Component {
   render(){
@@ -13,6 +14,7 @@ class App extends Component {
           <h6>Feed the monster, get a fortune!</h6>
         </header>
         <Monsters />
+        <Cookies />
       </div>
 
     );

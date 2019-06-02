@@ -10,7 +10,8 @@
 	text-align: center;
 	color: gold;
 	line-height: 100px;
-	height: auto;
+  height: auto;
+  margin-top: 3%;
 }
 
 span {
@@ -32,38 +33,58 @@ h6 {
 }
 
 .mAction {
-	width: 100%;
-	height: 325px;
-	display: inline-block;
-	margin: 15px;
-	vertical-align: top;
-	align-content: center;
+	width: auto;
+	height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10% 0 8%;
 }
 
-#monster1 {
+#monster1, #monster3, #monster4 {
 	height: 175px;
 	width: auto;
-	align-content: middle;
 }
 
 #monster2 {
-	width: 195px;
-	height: auto;
-	margin-left: 50px;
+  height: 125px;
+  padding-right: 3%;
 }
 
 #monster3 {
-	height: 175px;
-	width: auto;
-	margin-left: 50px;
-	align-content: middle;
+  padding-right: 5%;
 }
 
-#monster4 {
-	height: 175px;
+.cookies {
+  height: auto;
+  width: auto;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+#cookie1 {
+	height: 100px;
 	width: auto;
-	margin-left: 100px;
-	align-content: middle;
+	/* margin-left: 110px; */
+}
+
+#cookie2 {
+	height: 100px;
+	width: auto;
+	/* margin-left: 205px; */
+}
+
+#cookie3{
+	height: 100px;
+	width: auto;
+	/* margin-left: 285px; */
+}
+
+#cookie4 {
+	height: 100px;
+	width: auto;
+	/* margin-left: 345px; */
 }
 
 
