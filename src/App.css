@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Butcherman|Creepster|Hanalei|Julee|Shojumaru);
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  font-family: 'Julee', cursive;
+	font-size: 55px;
+	text-align: center;
+	color: gold;
+	line-height: 100px;
+	height: auto;
+}
+
+span {
+  font-family: 'Butcherman', cursive;
+	font-size: 90px;
+	color: lime;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+h6 {
+  font-style: italic;
+	color: purple;
+  margin: -100px 0 0 0;
+}
+
+.mAction {
+	width: 100%;
+	height: 325px;
+	display: inline-block;
+	margin: 15px;
+	vertical-align: top;
+	align-content: center;
+}
+
+#monster1 {
+	height: 175px;
+	width: auto;
+	align-content: middle;
+}
+
+#monster2 {
+	width: 195px;
+	height: auto;
+	margin-left: 50px;
+}
+
+#monster3 {
+	height: 175px;
+	width: auto;
+	margin-left: 50px;
+	align-content: middle;
+}
+
+#monster4 {
+	height: 175px;
+	width: auto;
+	margin-left: 100px;
+	align-content: middle;
+}
+
+
